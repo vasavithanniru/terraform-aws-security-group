@@ -1,11 +1,14 @@
-#Terraform AWS Security-group
-#Inputs
+## Terraform AWS Security-group
+# Inputs
 ```````
 Project-name
+
 Environmet 
+
 Vpc-id
+
 Sg-name
 
-#Output
+# Output
 ```````
 Sg-id
