@@ -9,7 +9,8 @@ resource "aws_security_group" "main" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
-
+  # ingress rules will change time to time, so not defined
+  
   tags = merge(
     var.common_tags,
     var.sg_tags,
